@@ -3,10 +3,10 @@
   <parent>
     <groupId>guru.springframework</groupId>
     <artifactId>spring-pet-clinic-app</artifactId>
-    <version>Y</version>
+    <version>1.1-SNAPSHOT</version>
   </parent>
   <artifactId>pet-clinic-data</artifactId>
-  <version>Y </version>
+  <version>1.1-SNAPSHOT </version>
   <name>pet-clinic-data</name>
   
   <properties>
