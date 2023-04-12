@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>guru.springframework</groupId>
 	<artifactId>spring-pet-clinic-app</artifactId>
-	<version>1.1</version>
+	<version>1.2-SNAPSHOT</version>
 	<name>spring-pet-clinic-app</name>
 	<packaging>pom</packaging>
 	<description>Spring Pet Clinic Project</description>
@@ -37,7 +37,7 @@
 	<scm>
 		<developerConnection>scm:git:https://github.com/AykutAcarer/sfg-pet-clinic-app.git</developerConnection>
 	  
-    <tag>spring-pet-clinic-app-1.1</tag>
+    <tag>HEAD</tag>
   </scm>
 	<modules>
 		<module>pet-clinic-data</module>
