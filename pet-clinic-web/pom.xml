@@ -3,16 +3,17 @@
   <parent>
     <groupId>guru.springframework</groupId>
     <artifactId>spring-pet-clinic-app</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>Y</version>
   </parent>
   <artifactId>pet-clinic-web</artifactId>
+  <version>0.0.1</version>
   <name>pet-clinic-web</name>
   
   <dependencies>
   	<dependency>
   		<groupId>guru.springframework</groupId>
     	<artifactId>pet-clinic-data</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
+    	<version>Y </version>
   	</dependency>
   	<dependency>
 		<groupId>org.springframework.boot</groupId>
