@@ -14,7 +14,7 @@ import guru.springframework.petclinicapp.model.Vet;
 
 public interface VetService {
 
-	Vet findByLastName(String lastName);
+	
 	
 	Vet findById(Long id);
 	
