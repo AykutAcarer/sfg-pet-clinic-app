@@ -1,25 +1,13 @@
 package guru.springframework.petclinicapp.services;
 
-import java.util.Set;
-
 import guru.springframework.petclinicapp.model.Vet;
-
-
-
 
 /**
  *@author Aykut Acarer
  *created on 12.04.2023
 **/
 
-public interface VetService {
+public interface VetService extends CrudService<Vet, Long>{
 
-	
-	
-	Vet findById(Long id);
-	
-	Vet save(Vet vet);
-	
-	Set<Vet> findAll();
 	
 }
