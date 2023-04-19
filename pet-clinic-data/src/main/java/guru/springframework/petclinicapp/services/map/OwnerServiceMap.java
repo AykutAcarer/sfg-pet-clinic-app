@@ -1,19 +1,16 @@
 package guru.springframework.petclinicapp.services.map;
 
-import java.util.Optional;
 import java.util.Set;
 
-import org.springframework.data.repository.CrudRepository;
-
 import guru.springframework.petclinicapp.model.Owner;
-import guru.springframework.petclinicapp.services.CrudService;
+import guru.springframework.petclinicapp.services.OwnerService;
 
 /**
  *@author Aykut Acarer
  *created on 15.04.2023
 **/
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long>{
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService{
 
 	
 	
@@ -47,7 +44,10 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
 		super.deleteById(id);
 	}
 
-	
+	@Override
+	public Owner findByLastName(String lastName) {
+		return null;
+	}
 
 	
 

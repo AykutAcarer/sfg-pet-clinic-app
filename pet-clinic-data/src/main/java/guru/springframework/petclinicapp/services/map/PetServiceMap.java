@@ -4,13 +4,14 @@ import java.util.Set;
 
 import guru.springframework.petclinicapp.model.Pet;
 import guru.springframework.petclinicapp.services.CrudService;
+import guru.springframework.petclinicapp.services.PetService;
 
 /**
  *@author Aykut Acarer
  *created on 15.04.2023
 **/
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long>{
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService{
 
 	
 	@Override
