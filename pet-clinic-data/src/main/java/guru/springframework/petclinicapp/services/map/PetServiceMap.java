@@ -2,6 +2,8 @@ package guru.springframework.petclinicapp.services.map;
 
 import java.util.Set;
 
+import org.springframework.stereotype.Service;
+
 import guru.springframework.petclinicapp.model.Pet;
 import guru.springframework.petclinicapp.services.CrudService;
 import guru.springframework.petclinicapp.services.PetService;
@@ -11,6 +13,7 @@ import guru.springframework.petclinicapp.services.PetService;
  *created on 15.04.2023
 **/
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService{
 
 	
