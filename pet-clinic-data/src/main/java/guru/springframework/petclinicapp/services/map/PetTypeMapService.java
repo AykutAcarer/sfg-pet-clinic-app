@@ -11,6 +11,7 @@ import guru.springframework.petclinicapp.services.PetTypeService;
  *created on 01.05.2023
 **/
 
+@Service
 public class PetTypeMapService extends AbstractMapService<PetType, Long> implements PetTypeService {
 
 	@Override
